@@ -8,21 +8,24 @@ namespace Taulukko1
 		{
 			Console.OutputEncoding = System.Text.Encoding.UTF8;
 			Console.WriteLine("Ohjelma arpoo 100 lukua 0-50 väliltä ja valmistaa niistä taulukon");
-			int[] arrayNumber = new int[100];
 			Random rnd = new Random();
-			double sum = 0; 
-			for (int i = 0; i < arrayNumber.Length; i++)
+			int[] iT;
+			iT = new int[100];
+			double sum = 0;
+
+			for (int i = 0; i < iT.Length; i++)
 			{
-				arrayNumber[i] = rnd.Next(0, 51);
+				iT[i] = rnd.Next(0, 50);
+				Console.WriteLine($"{iT[i]}");
 			}
-			for (int i = 0; i < arrayNumber.Length; i++)
+
+			for (int i = 0; i < iT.Length; i++)
 			{
-				Console.WriteLine($"{i} {arrayNumber[i]}");
-				sum += arrayNumber[i];
+				sum += iT[i];
 			}
-			Console.WriteLine($"Lukujen summa on {sum}");
-			Console.WriteLine($"Lukujen keskiarvo on {sum / arrayNumber.Length:f2}");
+			double ka = sum / 100;
+			Console.WriteLine($"Lukujen keskiarvo on {ka}");
 			Console.ReadKey();
 		}
-    }
+	}
 }
