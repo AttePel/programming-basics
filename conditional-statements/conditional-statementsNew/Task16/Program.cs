@@ -6,7 +6,7 @@ namespace Task4._4
 	{
 		static void Main(string[] args)
 		{
-
+			Console.OutputEncoding = System.Text.Encoding.UTF8;
 			Console.Write("Ohjelma heittää kolikkoa.\nKerro kuinka monta kertaa haluat kolikkoa heitettävän: ");
 
 			string luku = Console.ReadLine();
