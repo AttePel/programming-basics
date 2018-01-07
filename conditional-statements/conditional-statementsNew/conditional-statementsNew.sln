@@ -45,23 +45,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "funktio1.4", "funktio1.4\fu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taulukko1", "Taulukko1\Taulukko1.csproj", "{DE885D63-FCAD-490E-9F61-0D5DFD979E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lotto", "lotto\lotto.csproj", "{1AB0E06D-ACD7-403E-A1AB-EAD5D34600DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lotto", "lotto\lotto.csproj", "{1AB0E06D-ACD7-403E-A1AB-EAD5D34600DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Taulukko", "3.Taulukko\3.Taulukko.csproj", "{DB789D11-3ACD-44DC-B817-DCC4C7E73E93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Taulukko", "3.Taulukko\3.Taulukko.csproj", "{DB789D11-3ACD-44DC-B817-DCC4C7E73E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2Taulukko", "3.1Taulukko\3.2Taulukko.csproj", "{0720EF1D-33CC-4B11-8992-2533209A4D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2Taulukko", "3.1Taulukko\3.2Taulukko.csproj", "{0720EF1D-33CC-4B11-8992-2533209A4D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.3Taulukko", "3.3Taulukko\3.3Taulukko.csproj", "{10BB32E7-22EB-40A8-978F-B6410814DDF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.3Taulukko", "3.3Taulukko\3.3Taulukko.csproj", "{10BB32E7-22EB-40A8-978F-B6410814DDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merkki1", "Merkki1\Merkki1.csproj", "{E9FF75A8-666A-4CB7-97DD-A0777CFA58AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merkki1", "Merkki1\Merkki1.csproj", "{E9FF75A8-666A-4CB7-97DD-A0777CFA58AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merkki2", "Merkki2\Merkki2.csproj", "{A65D9098-D281-4A09-9EC2-E4781D7B2D36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merkki2", "Merkki2\Merkki2.csproj", "{A65D9098-D281-4A09-9EC2-E4781D7B2D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merkki3", "Merkki3\Merkki3.csproj", "{3E580EF9-AD43-4059-A032-29A6F8EA2AA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merkki3", "Merkki3\Merkki3.csproj", "{3E580EF9-AD43-4059-A032-29A6F8EA2AA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merkki4", "Merkki4\Merkki4.csproj", "{72BEA75F-978A-48C5-97C2-78F88EFA192C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merkki4", "Merkki4\Merkki4.csproj", "{72BEA75F-978A-48C5-97C2-78F88EFA192C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vokaalilaskuri", "vokaalilaskuri\vokaalilaskuri.csproj", "{EB16C0C5-D973-468B-9F60-FB573349A4AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vokaalilaskuri", "vokaalilaskuri\vokaalilaskuri.csproj", "{EB16C0C5-D973-468B-9F60-FB573349A4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{F4904AF0-820A-4A1E-8190-2E8D00F98126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{EB16C0C5-D973-468B-9F60-FB573349A4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB16C0C5-D973-468B-9F60-FB573349A4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB16C0C5-D973-468B-9F60-FB573349A4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4904AF0-820A-4A1E-8190-2E8D00F98126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4904AF0-820A-4A1E-8190-2E8D00F98126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4904AF0-820A-4A1E-8190-2E8D00F98126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4904AF0-820A-4A1E-8190-2E8D00F98126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
